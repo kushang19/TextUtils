@@ -1,9 +1,10 @@
-import './App.css';
+import React, { useState } from 'react';
 import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
-import About from './components/About';
-import React, { useState } from 'react';
 import Alert from './components/Alert';
+import './App.css';
+
+// import About from './components/About';
 // import {
 //   BrowserRouter as Router,
 //   Switch,
